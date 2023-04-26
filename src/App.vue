@@ -1,16 +1,11 @@
 <template>
-	<h1>Hello</h1>
-	<i class="icon-like"></i>
-
-	<router-link to="/about">About</router-link>
+	<the-header></the-header>
 
 	<router-view></router-view>
 </template>
 
 <script setup>
-import { useMoviesStore } from "@/store/MoviesStore.js";
-
-useMoviesStore();
+import TheHeader from "@/components/header/TheHeader.vue";
 </script>
 
 <style scoped></style>

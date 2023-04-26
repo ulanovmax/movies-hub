@@ -6,7 +6,7 @@ import { createPinia } from "pinia";
 const pinia = createPinia();
 
 // Router
-import router from "@/router/index.js";
+import router from "@/router";
 
 // Styles
 import "./assets/tailwind.css";

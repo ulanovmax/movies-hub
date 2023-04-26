@@ -3,3 +3,9 @@ body {
 	background: url("@public/common/blur-bg.svg") no-repeat center / cover, var(--gray);
 	color: #fff;
 }
+
+.cont {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
