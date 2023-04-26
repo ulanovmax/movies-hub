@@ -1,4 +1,5 @@
 body {
-	background: #000;
+	font-family: var(--font-main);
+	background: url("@public/common/blur-bg.svg") no-repeat center / cover, var(--gray);
 	color: #fff;
 }

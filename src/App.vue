@@ -1,5 +1,6 @@
 <template>
-	<h1 class="text-rose-300">Hello</h1>
+	<h1>Hello</h1>
+	<i class="icon-like"></i>
 
 	<router-link to="/about">About</router-link>
 

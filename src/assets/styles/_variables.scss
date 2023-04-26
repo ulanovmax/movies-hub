@@ -1,8 +1,100 @@
-:root {
-    --font-main: 'Inter', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-    --white: #fff;
-    --dark: #201d26;
-    --black: #000;
-    --purple: rgba(130, 78, 241, 0.29);
+:root {
+	--font-main: "Poppins", sans-serif;
+
+	--gray: #121829;
+
+	--primary: #5a4af4;
+	--secondary: #1ea5fc;
+	--tertary: #b66dff;
+	--error: #ff6161;
+	--warning: #ffad49;
+
+	--white: #fff;
+	--black: #000;
+}
+
+// Icons
+@font-face {
+	font-family: "icomoon";
+	src: url("@public/icons/icomoon.eot?yqjz7d");
+	src: url("@public/icons/icomoon.eot?yqjz7d#iefix") format("embedded-opentype"),
+		url("@public/icons/icomoon.ttf?yqjz7d") format("truetype"),
+		url("@public/icons/icomoon.woff?yqjz7d") format("woff"),
+		url("@public/icons/icomoon.svg?yqjz7d#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+	content: "\e900";
+}
+.icon-arrow-right:before {
+	content: "\e901";
+}
+.icon-close-square:before {
+	content: "\e902";
+}
+.icon-eye:before {
+	content: "\e903";
+}
+.icon-eye-slash:before {
+	content: "\e904";
+}
+.icon-filter:before {
+	content: "\e905";
+}
+.icon-key-square:before {
+	content: "\e906";
+}
+.icon-like:before {
+	content: "\e907";
+}
+.icon-link:before {
+	content: "\e908";
+}
+.icon-logout:before {
+	content: "\e909";
+}
+.icon-placeholder:before {
+	content: "\e90a";
+}
+.icon-search-normal:before {
+	content: "\e90b";
+}
+.icon-sms:before {
+	content: "\e90c";
+}
+.icon-star:before {
+	content: "\e90d";
+}
+.icon-tick-circle:before {
+	content: "\e90e";
+}
+.icon-user-square:before {
+	content: "\e90f";
+}
+.icon-video-play:before {
+	content: "\e910";
+}
+.icon-video-tick:before {
+	content: "\e911";
 }
