@@ -3,9 +3,11 @@
 :root {
 	--font-main: "Poppins", sans-serif;
 
-	--gray: #121829;
-
+	--grey: #121829;
 	--grey-200: #a8aebf;
+	--grey-300: #8e95a9;
+	--grey-600: #475069;
+	--grey-700: #323b54;
 
 	--primary: #5a4af4;
 	--secondary: #1ea5fc;
@@ -79,7 +81,7 @@
 .icon-placeholder:before {
 	content: "\e90a";
 }
-.icon-search-normal:before {
+.icon-search:before {
 	content: "\e90b";
 }
 .icon-sms:before {

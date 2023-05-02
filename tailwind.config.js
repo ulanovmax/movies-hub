@@ -7,13 +7,18 @@ export default {
 				transparent: "transparent",
 				current: "currentColor",
 
-				gray: "#121829",
+				grey: "#121829",
+				"grey-400": "#767E94",
 				primary: "#5a4af4",
 				secondary: "#1ea5fc",
 				tertary: "#b66dff",
 				error: "#ff6161",
 				warning: "#ffad49",
 			},
+		},
+
+		fontSize: {
+			base: "16px",
 		},
 
 		screens: {

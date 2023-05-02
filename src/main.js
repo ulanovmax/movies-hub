@@ -12,4 +12,7 @@ import router from "@/router";
 import "./assets/tailwind.css";
 import "./assets/styles/style.scss";
 
-createApp(App).use(router).use(pinia).mount("#app");
+// Common components
+import Input from "@/components/base/input/Input.vue";
+
+createApp(App).use(router).use(pinia).component("VInput", Input).mount("#app");

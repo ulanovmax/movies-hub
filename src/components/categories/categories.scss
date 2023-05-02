@@ -1,0 +1,22 @@
+.categories-nav {
+	background: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(40px);
+	border-radius: 12px;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	width: fit-content;
+
+	&__item {
+		padding: 8px 32px;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 150%;
+		border-radius: 8px;
+		cursor: pointer;
+
+		&.selected {
+			background: var(--primary);
+		}
+	}
+}
